@@ -95,5 +95,5 @@ if st.button("Generate"):
             st.error(f"OpenAI API Error: {e}")
         except requests.exceptions.RequestException as e:
             st.error(f"Facebook API Request Error: {e}")
-        except Exception as e:
+        except Exception as e: 
             st.error(f"An unexpected error occurred: {e}")
